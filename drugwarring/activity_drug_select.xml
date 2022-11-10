@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DrugSelectActivity">
+
+    <TextView
+        android:id="@+id/select_lbl_name"
+        android:layout_width="104dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="113dp"
+        android:text="약품명"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:id="@+id/select_lbl_content"
+        android:layout_width="104dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/select_txt_content"
+        android:layout_alignStart="@+id/select_lbl_name"
+        android:text="부작용 목록"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <TextView
+        android:id="@+id/select_txt_name"
+        android:layout_width="164dp"
+        android:layout_height="47dp"
+        android:layout_alignEnd="@+id/select_btn_cancel"
+        android:layout_alignTop="@+id/select_lbl_name"
+
+
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:id="@+id/select_txt_content"
+        android:layout_width="307dp"
+        android:layout_height="135dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="167dp"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="227dp"
+        android:ellipsize="none"
+        android:maxLines="100"/>
+
+    <Button
+        android:id="@+id/select_btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="62dp"
+        android:layout_marginEnd="46dp"
+        android:onClick="cancel"
+        android:text="이전 화면으로"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <Button
+        android:id="@+id/select_btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/select_btn_cancel"
+        android:layout_marginStart="70dp"
+        android:onClick="delete"
+        android:text="해당 목록 삭제"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="408dp" />
+</RelativeLayout>
