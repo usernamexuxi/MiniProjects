@@ -9,7 +9,7 @@
 <br>
 
 - node.js을 사용한 WEB 백엔드
-  - node.js express ~ mysql 연동해서 기능 구현
+  - node.js express ~ mysql 연동해서 기능 구현(클론 코딩)
     - 익스프레스로 SNS 서비스 만들기
     - 실시간 채팅방 만들기
     - 구글API로 장소 검색 서비스 만들기
