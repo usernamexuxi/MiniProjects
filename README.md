@@ -12,4 +12,3 @@
   - node.js express ~ MySQL/mongoDB 연동해서 기능 구현(클론 코딩)
     - 익스프레스로 SNS 서비스 만들기(MySQL)
     - 실시간 채팅방 만들기(mongoDB)
-    - 구글API로 장소 검색 서비스 만들기
