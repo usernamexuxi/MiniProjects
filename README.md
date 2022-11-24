@@ -10,5 +10,5 @@
 
 - node.js을 사용한 WEB 백엔드 (클론 코딩)
   - node.js express ~ MySQL/mongoDB 연동해서 기능 구현
-    - 익스프레스로 SNS 서비스 만들기(MySQL)
+    - PersonalSNS: 익스프레스로 SNS 서비스 만들기(MySQL)
     - 실시간 채팅방 만들기(mongoDB)
