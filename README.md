@@ -4,7 +4,7 @@
     - papago: 번역기 어플
     - drugwarring: 약품 부작용을 알려주는 어플
   - Kotlin
-  - (Kotlin을 사용하여 앱 개발 예정)
+    - (Kotlin을 사용하여 앱 개발 예정)
 
 <br>
 
