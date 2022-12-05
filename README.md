@@ -4,7 +4,6 @@
     - papago: 번역기 어플
     - drugwarring: 약품 부작용을 알려주는 어플
   - Kotlin (클론 코딩)
-    - SimpleMusicPlayer: 뮤직 플레이어
     - TodoList: 할 일 리스트
     
 <br>
