@@ -1,5 +1,5 @@
 # Mini Projects
-- JAVA와 Kotlin으로 만든 안드로이드 앱
+- 안드로이드 스튜디오에서 JAVA와 Kotlin으로 만든 안드로이드 앱
   - JAVA
     - papago: 번역기 어플
     - drugwarring: 약품 부작용을 알려주는 어플
